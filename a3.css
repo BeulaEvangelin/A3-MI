@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Roboto&display=swap');
 
+body {
+  font-size: 16px;
+  font-family: 'Mountains of Christmas', serif;
+  background-image: url(images/BG.jpg); 
+  background-size: cover; 
+  background-color: red;
+}
+
+p {
+  color: white;
+  font-size: 45px;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.hintInfo {
+  font-size: 30px;
+}
+
+
+
 @keyframes bounce {
   
   0%, 20%, 50%, 80%, 100% {
@@ -10,14 +31,6 @@
   40% {transform: translateY(-40px);}
 
   60% {transform: translateY(-10px);}
-}
-
-body {
-  font-size: 16px;
-  font-family: 'Mountains of Christmas', serif;
-  background-image: url(images/BG.jpg); 
-  background-size: cover; 
-  background-color: red;
 }
 
 .santaBounce {
@@ -31,17 +44,6 @@ body {
   animation-name: bounce;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-}
-
-p {
-  color: white;
-  font-size: 45px;
-  padding-left: 1%;
-  padding-top: 1%;
-}
-
-.hintInfo {
-  font-size: 30px;
 }
 
 .hint {
@@ -58,3 +60,6 @@ p {
 .hint:hover {
   background-color: white;
 }
+
+
+
