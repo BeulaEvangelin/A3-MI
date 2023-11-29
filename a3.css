@@ -20,14 +20,14 @@ body {
   background-color: red;
 }
 
-.microinteraction {
+.santaBounce {
   width: 30%;
   position: absolute;
   bottom: 10%;
   left: 15%;
 }
 
-.microinteraction:hover {
+.santaBounce:hover {
   animation-name: bounce;
   animation-duration: 2s;
   animation-iteration-count: infinite;
